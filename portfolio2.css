@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.a{
+   height: 100vh;
+   width:100%;
+   background-image:url(https://wallpaperaccess.com/full/4115908.jpg) ;
+   background-size: cover;
+   background-position: center;
+}
+.name{
+    animation: name 2s linear infinite;
+    font-size: 40px;
+    color:gold;
+    font-style: italic ; 
+    font-family:monospace;
+    margin-left: 20px;
+    top:-20px;
+ }
+ @keyframes name {
+    50% {
+        opacity: 0;
+    }   
+ }
+nav{
+    display:flex;
+    margin-top: -25px;
+}
+nav ul{
+    display:flex;
+    margin-top: -25px;
+}
+nav ul li{
+    padding: 20px 25px;
+    margin-top: -25px;
+}
+nav ul li a{
+    color:floralwhite;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: fantasy;
+    display: inline;
+    margin-top: -15px;
+}
+nav ul li a:hover
+{
+    color: greenyellow;
+    transition: 0.5s;
+    margin-top: -15px;
+}
+.p{
+    margin-left: 800px;
+    margin-top: -50px;
+}
+.btn
+{   background-color:cornflowerblue;
+    color: floralwhite;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: fantasy; 
+    border-radius: 20px;
+    font-size :large;
+    padding: 10px 10px;
+    margin-top: -44px;
+}
+.btn:hover
+{
+    color: greenyellow;
+    transition: 1s;
+}
+.con{
+    top: 75;
+    left :50;
+    position: absolute;
+    /*!-- for overlapping */
+    transform:translate(50%,50%);
+
+}
+h1{ 
+    color:deeppink;
+    font-size: 50px;
+    text-align: left;
+}
+h4{
+    color:cornsilk;
+    text-align: left;
+}
+h5{
+    color:cornsilk;
+    text-align: left;
+}
+#m{
+    display:inline-block;
+    /* for horizontal with of enter box */
+    width:90%;
+    border:3px solid red;
+    padding:5px 55px 21px 7px;
+    border-radius: 40px;
+}
+.k{
+    display:inline-block;
+    padding:10px 30px;
+    background-color: brown;
+    border:none;
+    color: aliceblue;
+    border-radius: 40px;
+    top: 134px;
+    right: 64px;
+    position: absolute;
+    box-shadow:2px 3px 10px;
+}
+.k:hover
+{
+    color:greenyellow;
+    transition: 1s; 
+}
+.tact1{
+   height: 100vh;
+   width:100%;
+   background-image:url(https://tse2.mm.bing.net/th?id=OIP.5u1ZZNkYsyzUDmkNN8sOygHaEK&pid=Api&P=0&h=180) ;
+   background-size: cover;
+   background-position: center;
+   right:100px;
+}
+.cc
+{
+    text-align: center;
+    color:crimson;
+    background-color:black;
+}
+span{
+    text-align: center;
+    display:inline-block;
+    right:75%;
+    color: darkgreen;
+    font-size: 25px;
+    font-family: inherit;
+    font-style: normal;
+    text-align: center;
+}
+pre a{
+    color: darkblue;
+    text-decoration: none;
+    font-family: fantasy;
+}
+pre a:hover{
+    color: red;
+    transition: 1s;
+
+}
+.o{
+    color:darkgreen;
+    font-weight: bold;
+}
+#rr
+{
+    display:inline-block; 
+    background-color:aliceblue;
+    border:3px solid red;
+    color:black;
+    border-radius: 40px;
+    box-shadow:2px 3px 7px;
+}
+.pp
+{
+    color:darkgreen;
+    font-weight:bold ;
+}
+.ab1
+{
+    height: 100vh;
+    width:100%;
+    background-image:url(https://tse2.mm.bing.net/th?id=OIP.5u1ZZNkYsyzUDmkNN8sOygHaEK&pid=Api&P=0&h=180) ;
+    background-size: cover;
+    background-position: center;
+    right:100px;  
+}
+.e{
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+}
+.ab2{
+    font-size: medium;
+    color:antiquewhite;
+    font-weight: bold;
+}
+.ll{
+    color:chocolate;
+    font-weight: bold;
+    text-align: center;
+    background-color:black;
+}
+
+
+
+
+
+
